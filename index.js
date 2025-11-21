@@ -4,7 +4,7 @@ import { MongoClient, ServerApiVersion } from "mongodb";
 const app = express();
 app.use(express.json());
 
-const uri = "mongodb+srv://brandon:admin@cluster0.fl0jfm1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "mongodb+srv://bernardo:Popitomasa1@cluster0.tsukhau.mongodb.net/?appName=Cluster0";
 
 const client = new MongoClient(uri, {
     serverApi: {
